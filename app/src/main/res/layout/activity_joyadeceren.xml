@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoinfo"
+    tools:context=".JoyadecerenActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/VolverJoyaHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/home"
+        app:backgroundTint="#00BCD4" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lblTituloMirador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:text="JOYA DE CEREN"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgMiradorC"
+                android:layout_width="360dp"
+                android:layout_height="203dp"
+                android:layout_marginLeft="25dp"
+                android:layout_below="@+id/lblTituloMirador"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/joyadeceren1" />
+
+            <ImageView
+                android:id="@+id/fondotext1"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:layout_below="@+id/imgMiradorC"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:background="#066E64" />
+
+            <TextView
+                android:id="@+id/lblinformacionMr"
+                android:layout_width="414dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgMiradorC"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="18dp"
+                android:text="Este importante sitio arqueológico, hasta el momento es el único Patrimonio Mundial Declarado por la UNESCO el 11 de diciembre de 1993. Este sitio evidencia la vida cotidiana de una aldea del Periodo Clásico Tardío que fue sepultada por la erupción del Volcán Loma Caldera, aproximadamente para el 650 d.C. Por este evento natural, los restos arqueológicos del sitio se encuentran intactos y en buen estado de conservación. Por esta situación, también es conocido como la Pompeya de América."
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgMiradorMr2"
+                android:layout_width="360dp"
+                android:layout_height="203dp"
+                android:layout_below="@+id/lblinformacionMr"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/joyadeceren2" />
+
+            <ImageView
+                android:id="@+id/fondotext2"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_below="@+id/imgMiradorMr2"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="16dp"
+                android:background="#066E64" />
+
+            <TextView
+                android:id="@+id/lblUbicacionMr"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgMiradorMr2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="21dp"
+                android:text="Además, es uno de los 5 Parques Arqueológicos administrados por el Ministerio de Cultura. Cuenta con aproximadamente 5 hectáreas de terreno distribuidas en 2 grandes espacios de funcionamiento: La zona de reserva arqueológica y el área administrativa: cafetería, servicio de guías gratuitos, área técnica y de uso público (Parque Arqueológico)."
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/fondotext3"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_below="@+id/lblUbicacionMr"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:background="#066E64" />
+
+            <TextView
+                android:id="@+id/lblUbicacionMr2"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblUbicacionMr"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Joya de Cerén se ubica en la zona central del país, dentro del Valle de Zapotitán, a 36 km al noroeste de la ciudad de San Salvador y a unos 6 km al sur del Municipio de San Juan Opico, Departamento de La Libertad."
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
